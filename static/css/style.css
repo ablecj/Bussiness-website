@@ -5,9 +5,7 @@ body{
 
 /* header-container */
 .header_container{
-    /* width: 100%; */
     height: auto;
-    /* overflow-x: hidden; */
 }
 /* image_section */
 .image_section{
@@ -65,4 +63,86 @@ body{
     margin-left: 12%;
     color: #fff;
 }
+
+/* sec_page_title */
+.second_page{
+    height: auto;
+    background-color: #112836;
+}
+.second_page_Title{
+    color: #fff;
+    margin-top: 10%;
+    width: fit-content;
+    margin-left: 5%;
+}
+/* pricing */
+
+
+.pricing_titile{
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    font-size: 24px;
+}
+.pricing_content{
+    color: #d7d7d7;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+/* solutions */
+.solutions_title{
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15%; */
+    font-size: 24px;
+}
+.solutions_content{
+    color: #d7d7d7;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15%; */
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+/* value */
+.value_title{
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15%; */
+    font-size: 24px; 
+}
+.value_content{
+    color: #d7d7d7;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15%; */
+    font-size: 22px; 
+    margin-top: 10%;
+}
+
+/* third_page */
+.third_page{
+    height: 100vh;
+    background-color: #112836;
+}
+
+
+
+
+
+
 
