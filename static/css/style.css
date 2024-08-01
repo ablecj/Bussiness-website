@@ -302,7 +302,7 @@ body{
     font-weight: 300;
 }
 .fifth_cont_ol{
-    margin-top: 5% !important;
+    margin-top: 2% !important;
     padding: 10px;
     counter-reset: list-counter; 
     list-style: none; 
@@ -311,13 +311,12 @@ body{
     padding: 10px;
     color: #fff;
     counter-increment: list-counter; 
-    margin-top: 20px;
-    margin-bottom: 8px; 
+    margin-top: 20px; 
     padding-left: 100px; 
     position: relative; 
     color: #fff;
     font-size: 1rem;
-    
+    margin-bottom: 0;
 }
 .fifth_cont_li::before{
     content: counter(list-counter) " "; 
@@ -344,10 +343,104 @@ body{
     font-size: 1rem;
 }
 
+/* sixth_page */
+.sixth_page{
+    height: auto;
+    background-color: #112836;
+    
+}
+/* first section */
+.sixth_page_container{
+    padding-bottom: 10%;
+}
+.sixth_page_title_cont{
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 8% !important;
+}
+.sixth_page_title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    width: 95% !important;
+    margin-top: 15px !important;
+}
 
+.tag_container{
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 15% !important;
+}
+.first_tag{
+    display: flex;
+    justify-content: center;
+    
+}
+.first_tag p{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0 !important;
+    padding: 15px;
+    color: #fff;
+    background-color: #0A988B;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 
+.secnd_tag{
+    display: flex;
+    justify-content: center;
+    
+}
+.secnd_tag p{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0 !important;
+    padding: 15px;
+    color: #fff;
+    background-color: #0A988B;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 
-
+.third_tag{
+    display: flex; 
+    justify-content: center;
+    
+}
+.third_tag p{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0 !important;
+    padding: 15px;
+    color: #fff;
+    background-color: #0A988B;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+/* sixthpage second section */
+.sixth_page_img_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,  rgb(235, 235, 235), rgb(169, 169, 169), rgb(255, 157, 107) );
+}
+.website_img{
+    width: 95%;
+    height: auto;
+    border-radius: 5px;
+}
 
 
 /* mobile view  */
@@ -403,6 +496,32 @@ body{
     }
     .fifth_cont_p{
        font-size: .85rem;
+    }
+    /* sixth page */
+    .sixth_page_title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .first_tag{
+        margin-bottom: 10px;
+    }
+    .first_tag p{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .secnd_tag{
+        margin-bottom: 10px;
+    }
+    .secnd_tag p{
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .third_tag{
+        margin-bottom: 10px;  
+    }
+    .third_tag p{
+        font-size: 1.5rem;
+        width: 100%;
     }
   }
 
